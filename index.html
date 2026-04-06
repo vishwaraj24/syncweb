@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNC | Clean Web Solutions</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.png" alt="SYNC Logo" class="nav-logo-img">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Recent Work</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container hero-content reveal">
+        <h1>Premium Websites <br>for <span class="text-gradient">Startups & Students</span></h1>
+        <p>Elevate your online presence with clean, modern, high-conversion layouts.</p>
+        <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Start Building</a>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-padding">
+    <div class="container">
+        <div class="text-center reveal">
+            <h2 class="section-title">What We <span class="text-gradient">Do</span></h2>
+        </div>
+
+        <div class="services-grid">
+            <div class="clean-card reveal">
+                <i class="fa-solid fa-briefcase service-icon"></i>
+                <h3>Business Websites</h3>
+            </div>
+
+            <div class="clean-card reveal">
+                <i class="fa-solid fa-user-tie service-icon"></i>
+                <h3>Portfolio Websites</h3>
+            </div>
+
+            <div class="clean-card reveal">
+                <i class="fa-solid fa-graduation-cap service-icon"></i>
+                <h3>College Projects</h3>
+            </div>
+
+            <div class="clean-card reveal">
+                <i class="fa-solid fa-wand-magic-sparkles service-icon"></i>
+                <h3>Custom Design</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section-padding">
+    <div class="container">
+        <div class="text-center reveal">
+            <h2 class="section-title">Recent <span class="text-gradient">Work</span></h2>
+            <p class="section-subtitle">Check out some of our custom designs and developments.</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-card reveal" id="nextbite-card">
+                <div class="portfolio-img-wrapper">
+                    <img src="nextbite1.png" alt="Next Bite Cafe">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Next Bite Cafe</h3>
+                    <p style="margin-top: 5px; font-size: 0.9rem;">Complete website design and development for a modern cafe experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NEXT BITE VERTICAL MODAL -->
+<div class="modal-overlay" id="vertical-modal">
+    <div class="modal-content" style="max-height: 90vh; max-width: 800px; background: #020813; border-radius: 12px; border: 1px solid var(--border-light); overflow: hidden; display: flex; flex-direction: column;">
+        <button id="vertical-modal-close" class="modal-close" style="top: 15px; right: 20px; z-index: 10;">&times;</button>
+        <div style="padding: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); text-align: center;">
+            <h3 class="modal-title" style="margin: 0;">Next Bite Cafe</h3>
+        </div>
+        <div style="overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 20px;">
+            <img src="nextbite1.png" alt="Next Bite Image 1" style="width: 100%; border-radius: 8px;">
+            <img src="nextbite2.png" alt="Next Bite Image 2" style="width: 100%; border-radius: 8px;">
+            <img src="nextbite3.png" alt="Next Bite Image 3" style="width: 100%; border-radius: 8px;">
+            <img src="nextbite4.png" alt="Next Bite Image 4" style="width: 100%; border-radius: 8px;">
+            <img src="nextbite5.png" alt="Next Bite Image 5" style="width: 100%; border-radius: 8px;">
+            <img src="nextbite6.png" alt="Next Bite Image 6" style="width: 100%; border-radius: 8px;">
+            <div style="text-align: center; margin-top: 10px;">
+                <a href="https://www.kuse.ai/pages/e1n53dlsmpni/next-bite-café-best-café-in-kolhapur-coffee-comfort" target="_blank" class="btn btn-primary" style="width: 100%; display: block; box-sizing: border-box;">Check Website</a>
+            </div>
+        </div>    </div>
+</div>
+
+<!-- PRICING -->
+<section id="pricing" class="section-padding">
+    <div class="container">
+        <div class="text-center reveal">
+            <h2 class="section-title">Pricing</h2>
+        </div>
+
+        <div class="pricing-grid">
+
+            <div class="clean-card pricing-card">
+                <h3>Starter</h3>
+                <div class="pricing-price">₹499</div>
+                <ul>
+                    <li>1 Page Website</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+
+            <div class="clean-card pricing-card best">
+                <h3>Standard</h3>
+                <div class="pricing-price">₹999</div>
+                <ul>
+                    <li>Up to 4 Pages</li>
+                    <li>Animations</li>
+                </ul>
+            </div>
+
+            <div class="clean-card pricing-card">
+                <h3>Premium</h3>
+                <div class="pricing-price">₹1999</div>
+                <ul>
+                    <li>Full Website</li>
+                    <li>Custom UI</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-padding">
+    <div class="container text-center">
+        <h2 class="section-title">Contact Us</h2>
+
+        <p>Email: <a href="mailto:info.syncofficial@gmail.com">info.syncofficial@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918208945122">+91 82089 45122</a></p>
+
+        <div class="hero-btns" style="margin-top:20px;">
+            <a href="https://www.instagram.com/syncofficials_?igsh=cXpwNmIzZmE2b3li" target="_blank" class="btn btn-outline">
+                DM on Instagram
+            </a>
+
+            <a href="https://wa.me/918208945122" target="_blank" class="btn btn-primary">
+                Chat on WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container text-center">
+
+        <p>© <span id="year"></span> SYNC. All rights reserved.</p>
+
+        <div style="margin-top:10px;">
+            <a href="terms.html">Terms</a> |
+            <a href="privacy.html">Privacy</a> |
+            <a href="refund.html">Refund</a>
+        </div>
+
+        <div style="margin-top:15px;">
+            <a href="https://www.instagram.com/syncofficials_?igsh=cXpwNmIzZmE2b3li" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://wa.me/918208945122" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | SYNC</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: var(--surface-color);">
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.png" alt="SYNC Logo" class="nav-logo-img">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#portfolio">Recent Work</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="contact.html" class="text-gradient">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- CONTACT SECTION -->
+<section class="section-padding" style="padding-top: 150px; min-height: 80vh;">
+    <div class="container reveal">
+
+        <div class="text-center" style="margin-bottom: 3rem;">
+            <h1 class="section-title">Get in <span class="text-gradient">Touch</span></h1>
+            <p class="section-subtitle">Reach out directly. No forms, instant replies.</p>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+
+            <div class="clean-card" style="max-width: 500px; width: 100%; text-align: center;">
+
+                <h3 style="margin-bottom: 1.5rem;">Contact Details</h3>
+
+                <!-- Email -->
+                <p style="margin-bottom: 1rem;">
+                    <i class="fa-solid fa-envelope" style="color: var(--primary-blue); margin-right: 8px;"></i>
+                    <a href="mailto:snehhha2502@gmail.com">snehhha2502@gmail.com</a>
+                </p>
+
+                <!-- Phone -->
+                <p style="margin-bottom: 2rem;">
+                    <i class="fa-solid fa-phone" style="color: var(--primary-blue); margin-right: 8px;"></i>
+                    <a href="tel:+919172467683">+91 91724 67683</a>
+                </p>
+
+                <!-- Buttons -->
+                <div class="hero-btns">
+
+                    <a href="https://wa.me/919172467683" target="_blank" 
+                       class="btn btn-primary"
+                       style="display:flex; justify-content:center; gap:10px; margin-bottom: 1rem;">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+
+                    <a href="https://www.instagram.com/snehhha_45" target="_blank"
+                       class="btn btn-outline"
+                       style="display:flex; justify-content:center; gap:10px;">
+                        <i class="fa-brands fa-instagram"></i>
+                        DM on Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container text-center">
+
+        <p>© <span id="year"></span> SYNC. All rights reserved.</p>
+
+        <!-- Legal Links -->
+        <div style="margin-top:10px;">
+            <a href="terms.html">Terms</a> |
+            <a href="privacy.html">Privacy</a> |
+            <a href="refund.html">Refund</a>
+        </div>
+
+        <!-- Social -->
+        <div style="margin-top:15px;">
+            <a href="https://www.instagram.com/snehhha_45" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://wa.me/919172467683" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
